@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 60px;
+    background-color: rgb(104, 247, 108);
+}
+#navbar h1{
+    width: 200px;
+    margin-left: 20px;
+}
+#search_input{
+    margin-right: 20px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+}
+#search_input:focus{
+    outline: none;
+}
